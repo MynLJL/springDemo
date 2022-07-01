@@ -8,9 +8,9 @@ server:
 spring:
   datasource:
     driver: com.mysql.jdbc.Driver
-    url: jdbc:mysql://g1-off-ku-qa.dns.guazi.com:3324/20211208xinche_activity?autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&allowMultiQueries=true
-    username: miaochenge
-    password: cebce5b0
+    url: jdbc:mysql://?autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    username: username
+    password: password
 ## 使用druid-starter，配置参数
     druid:
       test-on-borrow: true
