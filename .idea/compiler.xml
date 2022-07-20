@@ -7,15 +7,63 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springdemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="springdemo" target="1.8" />
+      <module name="netty-all" target="1.6" />
+      <module name="netty-bom" target="1.5" />
+      <module name="netty-buffer" target="1.6" />
+      <module name="netty-codec" target="1.6" />
+      <module name="netty-codec-dns" target="1.6" />
+      <module name="netty-codec-haproxy" target="1.6" />
+      <module name="netty-codec-http" target="1.6" />
+      <module name="netty-codec-http2" target="1.6" />
+      <module name="netty-codec-memcache" target="1.6" />
+      <module name="netty-codec-mqtt" target="1.6" />
+      <module name="netty-codec-redis" target="1.6" />
+      <module name="netty-codec-smtp" target="1.6" />
+      <module name="netty-codec-socks" target="1.6" />
+      <module name="netty-codec-stomp" target="1.6" />
+      <module name="netty-codec-xml" target="1.6" />
+      <module name="netty-common" target="1.6" />
+      <module name="netty-dev-tools" target="1.5" />
+      <module name="netty-example" target="1.6" />
+      <module name="netty-handler" target="1.6" />
+      <module name="netty-handler-proxy" target="1.6" />
+      <module name="netty-microbench" target="1.6" />
+      <module name="netty-resolver" target="1.6" />
+      <module name="netty-resolver-dns" target="1.6" />
+      <module name="netty-resolver-dns-classes-macos" target="1.6" />
+      <module name="netty-resolver-dns-native-macos" target="1.6" />
+      <module name="netty-testsuite" target="1.6" />
+      <module name="netty-testsuite-autobahn" target="1.6" />
+      <module name="netty-testsuite-http2" target="1.6" />
+      <module name="netty-testsuite-native" target="1.6" />
+      <module name="netty-testsuite-native-image" target="1.6" />
+      <module name="netty-testsuite-native-image-client" target="1.6" />
+      <module name="netty-testsuite-native-image-client-runtime-init" target="1.6" />
+      <module name="netty-testsuite-osgi" target="1.6" />
+      <module name="netty-testsuite-shading" target="1.6" />
+      <module name="netty-transport" target="1.6" />
+      <module name="netty-transport-blockhound-tests" target="1.8" />
+      <module name="netty-transport-classes-epoll" target="1.6" />
+      <module name="netty-transport-classes-kqueue" target="1.6" />
+      <module name="netty-transport-native-epoll" target="1.6" />
+      <module name="netty-transport-native-kqueue" target="1.6" />
+      <module name="netty-transport-native-unix-common" target="1.6" />
+      <module name="netty-transport-native-unix-common-tests" target="1.6" />
+      <module name="netty-transport-rxtx" target="1.6" />
+      <module name="netty-transport-sctp" target="1.6" />
+      <module name="netty-transport-udt" target="1.6" />
+      <module name="study" target="18" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="netty-parent" options="-Xlint:-options" />
       <module name="springdemo" options="-parameters" />
+      <module name="study" options="-parameters" />
     </option>
   </component>
 </project>
