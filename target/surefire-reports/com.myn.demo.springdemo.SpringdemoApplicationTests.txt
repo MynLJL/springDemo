@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.myn.demo.springdemo.SpringdemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.288 s <<< FAILURE! - in com.myn.demo.springdemo.SpringdemoApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: 
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[DEBUG_FILE] - Failed to create parent directories for [/med/apps/log/log_debug.log]
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[DEBUG_FILE] - openFile(/med/apps/log/log_debug.log,true) call failed. java.io.FileNotFoundException: /med/apps/log/log_debug.log (No such file or directory)
+Caused by: java.lang.IllegalStateException: 
+Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[DEBUG_FILE] - Failed to create parent directories for [/med/apps/log/log_debug.log]
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[DEBUG_FILE] - openFile(/med/apps/log/log_debug.log,true) call failed. java.io.FileNotFoundException: /med/apps/log/log_debug.log (No such file or directory)
+
