@@ -4,196 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b5ae83e-6159-440b-8786-714f38e3a90a" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myn/demo/springdemo/annotation/Sensitive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myn/demo/springdemo/annotation/SensitiveJsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myn/demo/springdemo/client/BaseHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myn/demo/springdemo/config/CommonThreadPoolConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myn/demo/springdemo/config/configprop/CommonThreadPoolConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myn/demo/springdemo/controller/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myn/demo/springdemo/enums/SensitiveStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myn/demo/springdemo/pool/CommonThreadPoolExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myn/demo/springdemo/serviceImpl/AsyncServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myn/demo/springdemo/vo/DensVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/main/java/collectionstudy/HashMapLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/src/main/java/interview/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_alibaba_druid_1_1_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_11_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_58.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_58.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_58.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_assertj_assertj_core_3_21_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_mockito_mockito_core_4_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_mybatis_mybatis_3_5_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_6_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_spring_aop_5_3_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_spring_beans_5_3_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_spring_context_5_3_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_spring_core_5_3_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_spring_expression_5_3_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_spring_test_5_3_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_spring_tx_5_3_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_spring_web_5_3_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__org_yaml_snakeyaml_1_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/libraries/Maven__redis_clients_jedis_3_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/springdemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/SpringdemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/algorithm/ListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/algorithm/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/algorithm/nowcoder/DpTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/algorithm/nowcoder/ListNodeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/algorithm/nowcoder/StringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/algorithm/nowcoder/TreeNodeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/collection/HashMapTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/config/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/config/RestResponseHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/config/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/dao/PtBenefitCouponMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/enums/BaseEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/enums/DemoErrEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/interceptor/LogInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/model/PtBenefitCoupon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/restful/RestfulResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/service/AsyncService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/service/PtBenefitCouponService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/serviceImpl/PtBenefitCouponImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/util/StringUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/java/com/myn/demo/springdemo/util/ThreadLocalUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/resources/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/main/resources/mappers/PtBenefitCouponMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/src/test/java/com/myn/demo/springdemo/SpringdemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/SpringdemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/DpTest$maxProfit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/DpTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/ListNodeTest$EntryNodeOfLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/ListNodeTest$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/ListNodeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/StringTest$StringMul.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/StringTest$containStr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/StringTest$strAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/StringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/TreeNodeTest$maxPathSum$FindPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/TreeNodeTest$maxPathSum$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/TreeNodeTest$maxPathSum$reConstructBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/TreeNodeTest$maxPathSum$sortedArrayToBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/TreeNodeTest$maxPathSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/TreeNodeTest$sumNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/algorithm/nowcoder/TreeNodeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/collection/HashMapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/config/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/config/RestResponseHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/config/WebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/dao/PtBenefitCouponMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/enums/BaseEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/enums/DemoErrEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/interceptor/LogInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/model/PtBenefitCoupon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/restful/RestfulResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/service/AsyncService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/service/PtBenefitCouponService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/serviceImpl/PtBenefitCouponImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/util/StringUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/com/myn/demo/springdemo/util/ThreadLocalUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/classes/mappers/PtBenefitCouponMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/springdemo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/springdemo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/surefire-reports/TEST-com.myn.demo.springdemo.SpringdemoApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/surefire-reports/com.myn.demo.springdemo.SpringdemoApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springdemo/target/test-classes/com/myn/demo/springdemo/SpringdemoApplicationTests.class" beforeDir="false" />
-    </list>
+    <list default="true" id="8b5ae83e-6159-440b-8786-714f38e3a90a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -334,7 +145,7 @@
       <workItem from="1656683195694" duration="32000" />
       <workItem from="1656683304262" duration="14544000" />
       <workItem from="1657520211792" duration="2987000" />
-      <workItem from="1657967333603" duration="27996000" />
+      <workItem from="1657967333603" duration="28284000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1656680138175</created>
@@ -364,7 +175,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656681555823</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1">
+      <created>1658321794771</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658321794771</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1">
+      <created>1658321896481</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658321896481</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1">
+      <created>1658321916231</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658321916231</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
